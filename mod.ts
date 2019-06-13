@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as alt from './Alt'
 export { alt }
 import * as alternative from './Alternative'
@@ -198,3 +199,9 @@ import * as witherable from './Witherable'
 export { witherable }
 import * as zipper from './Zipper'
 export { zipper }
+=======
+
+export function monoid(){
+    console.log("flatmap all the remote things")
+}
+>>>>>>> f98c670c2b531ec3a7eeaa5aeb53e8e6fe70121d
