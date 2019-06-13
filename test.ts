@@ -1,3 +1,3 @@
-import {monoid} from "https://raw.githubusercontent.com/sammyrulez/fp-ts-dn/master/mod.ts"
+import { option } from "https://raw.githubusercontent.com/sammyrulez/fp-ts-dn/master/mod.ts"
 
-monoid()
+console.log(option.some("a String "))
