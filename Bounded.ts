@@ -5,7 +5,7 @@
  *
  * - Bounded: `bottom <= a <= top`
  */
-import { Ord, ordNumber } from './Ord'
+import { Ord, ordNumber }  from  './Ord.ts'
 
 /**
  * @since 1.0.0
@@ -23,3 +23,4 @@ export const boundedNumber: Bounded<number> = {
   top: Infinity,
   bottom: -Infinity
 }
+
