@@ -2795,7 +2795,7 @@ import {
   ApplicativeComposition12,
   ApplicativeComposition22,
   getApplicativeComposition
-} from './Applicative'
+} from './Applicative.ts'
 import { Either, URI, either, left as eitherLeft, right as eitherRight }  from  './Either.ts'
 import { Functor, Functor1, Functor2 }  from  './Functor.ts'
 import { HKT, Type, Type2, URIS, URIS2 }  from  './HKT.ts'
@@ -3009,7 +3009,7 @@ import {
   FunctorWithIndex2C,
   FunctorWithIndex3,
   FunctorWithIndex3C
-} from './FunctorWithIndex'
+} from './FunctorWithIndex.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Option }  from  './Option.ts'
 

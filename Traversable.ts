@@ -2795,7 +2795,7 @@ import {
   ApplicativeComposition12,
   ApplicativeComposition22,
   getApplicativeComposition
-} from './Applicative'
+} from './Applicative.ts'
 import { Either, URI, either, left as eitherLeft, right as eitherRight }  from  './Either.ts'
 import { Functor, Functor1, Functor2 }  from  './Functor.ts'
 import { HKT, Type, Type2, URIS, URIS2 }  from  './HKT.ts'
@@ -3009,7 +3009,7 @@ import {
   FunctorWithIndex2C,
   FunctorWithIndex3,
   FunctorWithIndex3C
-} from './FunctorWithIndex'
+} from './FunctorWithIndex.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Option }  from  './Option.ts'
 
@@ -3371,7 +3371,7 @@ import {
   FunctorComposition22C,
   FunctorComposition3C1,
   getFunctorComposition
-} from './Functor'
+} from './Functor.ts'
 
 /**
  * @since 1.12.0
@@ -4288,7 +4288,7 @@ import {
   semigroupVoid,
   getStructSemigroup,
   getTupleSemigroup
-} from './Semigroup'
+} from './Semigroup.ts'
 
 /**
  * @since 1.0.0
@@ -6446,7 +6446,7 @@ import {
   FunctorComposition2C1,
   FunctorComposition3C1,
   getFunctorComposition
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Monoid }  from  './Monoid.ts'
 
@@ -7118,7 +7118,7 @@ import {
   FunctorComposition2C1,
   FunctorComposition3C1,
   getFunctorComposition
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { fromEither, none, Option, some }  from  './Option.ts'
 
@@ -7320,7 +7320,7 @@ import {
   CompactableComposition3C1,
   getCompactableComposition,
   Separated
-} from './Compactable'
+} from './Compactable.ts'
 import { Either }  from  './Either.ts'
 import { Predicate, Refinement }  from  './function.ts'
 import {
@@ -7337,7 +7337,7 @@ import {
   FunctorComposition21,
   FunctorComposition22,
   FunctorComposition3C1
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Option, some, none }  from  './Option.ts'
 
@@ -7712,7 +7712,7 @@ import {
   Foldable2vComposition22,
   Foldable2vComposition22C,
   Foldable2vComposition3C1
-} from './Foldable2v'
+} from './Foldable2v.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Monoid }  from  './Monoid.ts'
 
@@ -8921,7 +8921,7 @@ import {
   ApplicativeComposition2C1,
   ApplicativeComposition3C1,
   getApplicativeComposition
-} from './Applicative'
+} from './Applicative.ts'
 import { Functor, Functor1, Functor2, Functor2C, Functor3C }  from  './Functor.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Monad, Monad1, Monad2, Monad2C, Monad3C }  from  './Monad.ts'
@@ -10756,7 +10756,7 @@ import {
   getSemigroup as eitherGetSemigroup,
   left as eitherLeft,
   right as eitherRight
-} from './Either'
+} from './Either.ts'
 import * as eitherT  from  './EitherT.ts'
 import { constant, constIdentity, Lazy, Predicate, Refinement, identity }  from  './function.ts'
 import { IO }  from  './IO.ts'
@@ -11673,7 +11673,7 @@ import {
   FoldableComposition,
   FoldableComposition11,
   getFoldableComposition
-} from './Foldable'
+} from './Foldable.ts'
 import {
   Functor,
   Functor1,
@@ -11684,7 +11684,7 @@ import {
   FunctorComposition,
   FunctorComposition11,
   getFunctorComposition
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 
 /**
