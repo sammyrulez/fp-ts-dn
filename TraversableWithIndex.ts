@@ -1097,7 +1097,7 @@ import { Setoid, fromEquals }  from  './Setoid.ts'
 import { phantom, toString }  from  './function.ts'
 import { Show }  from  './Show.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Const: Const<L, A>
   }
@@ -1393,7 +1393,7 @@ import { Group }  from  './Group.ts'
 import { Setoid, fromEquals }  from  './Setoid.ts'
 import { Monad1 }  from  './Monad.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT<A> {
     FreeGroup: FreeGroup<A>
   }
@@ -1608,7 +1608,7 @@ import { IxMonad3 }  from  './IxMonad.ts'
 import { Monad3C }  from  './Monad.ts'
 import { phantom }  from  './function.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT3<U, L, A> {
     IxIO: IxIO<U, L, A>
   }
@@ -2133,7 +2133,7 @@ export const setoidDate: Setoid<Date> = contramap(date => date.valueOf(), setoid
 import { constant, constIdentity }  from  './function.ts'
 import { Monad2 }  from  './Monad.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     State: State<L, A>
   }
@@ -2262,7 +2262,7 @@ import { Functor, Functor2, Functor3 }  from  './Functor.ts'
 import { HKT, HKT2, HKT3, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Endomorphism, toString }  from  './function.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Store: Store<L, A>
   }
@@ -2421,7 +2421,7 @@ import { Monoid }  from  './Monoid.ts'
 import { Functor2 }  from  './Functor.ts'
 import { phantom, tuple }  from  './function.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Traced: Traced<L, A>
   }
@@ -2515,7 +2515,7 @@ import { Monoid }  from  './Monoid.ts'
 import { Semigroup }  from  './Semigroup.ts'
 import { phantom }  from  './function.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Writer: Writer<L, A>
   }
@@ -3170,7 +3170,7 @@ export const URI = 'Free'
 
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Free: Free<L, A>
   }
@@ -3520,7 +3520,7 @@ import { Setoid, fromEquals }  from  './Setoid.ts'
 import { Traversable2v1 }  from  './Traversable2v.ts'
 import { Show }  from  './Show.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT<A> {
     Identity: Identity<A>
   }
@@ -3982,7 +3982,7 @@ import { Semigroup }  from  './Semigroup.ts'
 import { Lazy, constIdentity, toString, constant, identity }  from  './function.ts'
 import { MonadIO1 }  from  './MonadIO.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT<A> {
     IO: IO<A>
   }
@@ -4100,7 +4100,7 @@ import { IO, io }  from  './IO.ts'
 import { Monad2 }  from  './Monad.ts'
 import { MonadThrow2 }  from  './MonadThrow.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     IOEither: IOEither<L, A>
   }
@@ -4724,7 +4724,7 @@ import { Setoid, fromEquals }  from  './Setoid.ts'
 import { Traversable2v1 }  from  './Traversable2v.ts'
 import { Show }  from  './Show.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT<A> {
     Pair: Pair<A>
   }
@@ -4887,7 +4887,7 @@ import { Either, left as eitherLeft, right as eitherRight }  from  './Either.ts'
 import { Semigroup }  from  './Semigroup.ts'
 import { Monoid }  from  './Monoid.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Reader: Reader<L, A>
   }
@@ -5054,7 +5054,7 @@ import { MonadThrow3 }  from  './MonadThrow.ts'
 
 const readerTTaskEither = readerT.getReaderT2v(taskEither.taskEither)
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT3<U, L, A> {
     ReaderTaskEither: ReaderTaskEither<U, L, A>
   }
@@ -5688,7 +5688,7 @@ import { MonadTask1 }  from  './MonadTask.ts'
 import { Monoid }  from  './Monoid.ts'
 import { Semigroup }  from  './Semigroup.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT<A> {
     Task: Task<A>
   }

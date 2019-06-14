@@ -1097,7 +1097,7 @@ import { Setoid, fromEquals }  from  './Setoid.ts'
 import { phantom, toString }  from  './function.ts'
 import { Show }  from  './Show.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Const: Const<L, A>
   }

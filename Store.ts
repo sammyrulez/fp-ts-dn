@@ -1097,7 +1097,7 @@ import { Setoid, fromEquals }  from  './Setoid.ts'
 import { phantom, toString }  from  './function.ts'
 import { Show }  from  './Show.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Const: Const<L, A>
   }
@@ -1393,7 +1393,7 @@ import { Group }  from  './Group.ts'
 import { Setoid, fromEquals }  from  './Setoid.ts'
 import { Monad1 }  from  './Monad.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT<A> {
     FreeGroup: FreeGroup<A>
   }
@@ -1608,7 +1608,7 @@ import { IxMonad3 }  from  './IxMonad.ts'
 import { Monad3C }  from  './Monad.ts'
 import { phantom }  from  './function.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT3<U, L, A> {
     IxIO: IxIO<U, L, A>
   }
@@ -2133,7 +2133,7 @@ export const setoidDate: Setoid<Date> = contramap(date => date.valueOf(), setoid
 import { constant, constIdentity }  from  './function.ts'
 import { Monad2 }  from  './Monad.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     State: State<L, A>
   }
@@ -2262,7 +2262,7 @@ import { Functor, Functor2, Functor3 }  from  './Functor.ts'
 import { HKT, HKT2, HKT3, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Endomorphism, toString }  from  './function.ts'
 
-declare module './HKT' {
+declare module './HKT.ts'
   interface URI2HKT2<L, A> {
     Store: Store<L, A>
   }
