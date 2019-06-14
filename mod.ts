@@ -3009,7 +3009,7 @@ import {
   FunctorWithIndex2C,
   FunctorWithIndex3,
   FunctorWithIndex3C
-} from './FunctorWithIndex'
+} from './FunctorWithIndex.ts'
 import { HKT, Type, Type2, Type3, URIS, URIS2, URIS3 }  from  './HKT.ts'
 import { Option }  from  './Option.ts'
 
@@ -3371,7 +3371,7 @@ import {
   FunctorComposition22C,
   FunctorComposition3C1,
   getFunctorComposition
-} from './Functor'
+} from './Functor.ts'
 
 /**
  * @since 1.12.0
